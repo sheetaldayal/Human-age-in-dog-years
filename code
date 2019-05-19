@@ -1,27 +1,28 @@
-/*Assign a variable and set it equal to your age as a number*/
+//Assign a variable and set it equal to your age as a number
 const myAge = 30;
 
-/*Assign a variable whose value can change*/
+//Assign a variable whose value can change
 let earlyYears = 2;
 
-/*Multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears and print it*/
+//Multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears and print it
 earlyYears *= 10.5;
 console.log(earlyYears);
 
-/*Subtract 2 from myAge and set the result as a variable laterYears*/
+//Subtract 2 from myAge and set the result as a variable laterYears
 let laterYears = myAge - 2;
 
-/*Multiply laterYears by 4 to calculate the no of dog years and print it*/
+//Multiply laterYears by 4 to calculate the no of dog years and print it
 laterYears *= 4;
 console.log(laterYears);
 
-/*Assign and print a new variable to the sum of earlyYears and laterYears*/
+//Assign and print a new variable to the sum of earlyYears and laterYears
 myAgeInDogYears = earlyYears+laterYears;
 console.log(myAgeInDogYears);
 
-/*Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName*/
+/*Write your name as a string, call its built-in method .toLowerCase(), 
+and store the result in a variable called myName*/
 var myName = "Sheen"
 console.log(myName.toLowerCase());
 
-/*Use string interpolation to display a sentence that displays your name and age in dog years*/
+//Use string interpolation to display a sentence that displays your name and age in dog years
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
